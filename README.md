@@ -20,28 +20,28 @@ Packages:
 
 Usage:
     1. Non-Active Learning: 
-       --Pipeline.java
-           --ExtractMain.java
-               --CalculateTFIDF.java, WordUnigram.java, KeywordCoungs.java, ... (classes in ~.extract)
-           --SplitMain.java
-               --SplitGroups.java (in ~.generate)
-           --OrganizeMain.java
-               --Organize4Weka.java (in ~.generate)
-           --LearnMain.java
-               --Classify.java (in ~.learn)
-                 --Learner.java (BinaryLearner.java, AutoMultiLearner.java, ManualMultiLearner.java in ~.learn)
-                   --LearnAlgorithm.java (LearnAlgorithmFactory.java: LibSVMDo.java, NaiveBayesDo.java, NaiveBayesMultinomialDo.java)
+       <-Pipeline.java
+           <-ExtractMain.java
+               <-CalculateTFIDF.java, WordUnigram.java, KeywordCoungs.java, ... (classes in ~.extract)
+           <-SplitMain.java
+               <--SplitGroups.java (in ~.generate)
+           <-OrganizeMain.java
+               <--Organize4Weka.java (in ~.generate)
+           <-LearnMain.java
+               <-Classify.java (in ~.learn)
+                 <-Learner.java (BinaryLearner.java, AutoMultiLearner.java, ManualMultiLearner.java in ~.learn)
+                   <-LearnAlgorithm.java (LearnAlgorithmFactory.java: LibSVMDo.java, NaiveBayesDo.java, NaiveBayesMultinomialDo.java)
     2. Active Learning:
-       --SplitTrainAndTest.java (~.active.dataprepare)
-       --ExtractTSTTALL.java
-       --OrganizeSTTALL.java
-       --AllMain.java (~.active)
-           --ActiveProcessNoWriter.java (ActiveProcessPseudo.java, ActiveProcessPseudoDuplicate.java, ~.active)
-               --InstanceManagement.java (~.active.util)
-               --DataSetOperatorNoWriter.java (~.active)
-                   --NextInstanceListManager.java (~.active.util)
-                       --NextInstanceComparator.java (~.active.util)
-                           --IndexComparator.java (~.active.util)
+       <-SplitTrainAndTest.java (~.active.dataprepare)
+       <-ExtractTSTTALL.java
+       <-OrganizeSTTALL.java
+       <-AllMain.java (~.active)
+           <-ActiveProcessNoWriter.java (ActiveProcessPseudo.java, ActiveProcessPseudoDuplicate.java, ~.active)
+               <-InstanceManagement.java (~.active.util)
+               <-DataSetOperatorNoWriter.java (~.active)
+                   <-NextInstanceListManager.java (~.active.util)
+                       <-NextInstanceComparator.java (~.active.util)
+                           <-IndexComparator.java (~.active.util)
 
 Folder Structure:
     1. Non-Active Learning:
