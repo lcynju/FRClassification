@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="weka.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/icu4j-51.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/icu4j-charset-51.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/icu4j-localespi-51.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/isorelax-20030108.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/isorelax-jaxp-bridge-ILM-1.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/ivy.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/jaws-1.3.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/jdom2-2.0.4.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/jul-to-slf4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/morphadorner.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/msv-2008.02.13.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/relaxngDatatype-1.0.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/relaxngDatatype-20020414.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/tcfxb-0.4.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/texhyphj-1.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xsdlib-20060615.jar"/>
+	<classpathentry kind="lib" path="/FeatureRequestProcessing/morphadorner-lib/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="libsvm-bigger.jar"/>
+	<classpathentry kind="lib" path="LibSVM.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/HeuristicRules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
